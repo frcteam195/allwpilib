@@ -389,22 +389,18 @@ constexpr auto get(span<E, S> s) -> decltype(s[N])
     return s[N];
 }
 
-} // namespace wpi
-
-namespace std {
-
 template <typename ElementType, size_t Extent>
-class tuple_size<wpi::span<ElementType, Extent>>
+class tuple_size<std::span<ElementType, Extent>>
     : public integral_constant<size_t, Extent> {};
 
 template <typename ElementType>
-class tuple_size<wpi::span<
-    ElementType, wpi::dynamic_extent>>; // not defined
+class tuple_size<std::span<
+    ElementType, std::dynamic_extent>>; // not defined
 
 template <size_t I, typename ElementType, size_t Extent>
-class tuple_element<I, wpi::span<ElementType, Extent>> {
+class tuple_element<I, std::span<ElementType, Extent>> {
 public:
-    static_assert(Extent != wpi::dynamic_extent &&
+    static_assert(Extent != std::dynamic_extent &&
                       I < Extent,
                   "");
     using type = ElementType;
