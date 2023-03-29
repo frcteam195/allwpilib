@@ -2,9 +2,8 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
-#pragma once
-
-#include <compare>
+#ifndef NTCORE_SEQUENCENUMBER_H_
+#define NTCORE_SEQUENCENUMBER_H_
 
 namespace nt::net3 {
 
@@ -28,11 +27,36 @@ class SequenceNumber {
     return tmp;
   }
 
-  friend auto operator<=>(const SequenceNumber& lhs,
-                          const SequenceNumber& rhs) = default;
+  friend bool operator<(const SequenceNumber& lhs, const SequenceNumber& rhs);
+  friend bool operator>(const SequenceNumber& lhs, const SequenceNumber& rhs);
+  friend bool operator<=(const SequenceNumber& lhs, const SequenceNumber& rhs);
+  friend bool operator>=(const SequenceNumber& lhs, const SequenceNumber& rhs);
+  friend bool operator==(const SequenceNumber& lhs, const SequenceNumber& rhs);
+  friend bool operator!=(const SequenceNumber& lhs, const SequenceNumber& rhs);
 
  private:
   unsigned int m_value{0};
 };
 
+bool operator<(const SequenceNumber& lhs, const SequenceNumber& rhs);
+bool operator>(const SequenceNumber& lhs, const SequenceNumber& rhs);
+
+inline bool operator<=(const SequenceNumber& lhs, const SequenceNumber& rhs) {
+  return lhs == rhs || lhs < rhs;
+}
+
+inline bool operator>=(const SequenceNumber& lhs, const SequenceNumber& rhs) {
+  return lhs == rhs || lhs > rhs;
+}
+
+inline bool operator==(const SequenceNumber& lhs, const SequenceNumber& rhs) {
+  return lhs.m_value == rhs.m_value;
+}
+
+inline bool operator!=(const SequenceNumber& lhs, const SequenceNumber& rhs) {
+  return lhs.m_value != rhs.m_value;
+}
+
 }  // namespace nt::net3
+
+#endif  // NTCORE_SEQUENCENUMBER_H_
