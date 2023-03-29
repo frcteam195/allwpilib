@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include <span>
+#include "wpi/span.h"
 #include <string_view>
 
 #include "networktables/NetworkTableInstance.h"

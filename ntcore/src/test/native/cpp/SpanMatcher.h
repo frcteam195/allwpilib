@@ -8,7 +8,7 @@
 #include <initializer_list>
 #include <memory>
 #include <ostream>
-#include <span>
+#include "wpi/span.h"
 #include <type_traits>
 #include <utility>
 #include <vector>

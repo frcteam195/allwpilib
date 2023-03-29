@@ -7,7 +7,7 @@
 #include <stdint.h>
 
 #include <atomic>
-#include <span>
+#include "wpi/span.h"
 #include <system_error>
 #include <vector>
 

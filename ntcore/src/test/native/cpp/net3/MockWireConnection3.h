@@ -6,7 +6,7 @@
 
 #include <stdint.h>
 
-#include <span>
+#include "wpi/span.h"
 #include <vector>
 
 #include <wpi/raw_ostream.h>

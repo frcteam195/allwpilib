@@ -5,7 +5,7 @@
 #include <stdint.h>
 
 #include <cstring>
-#include <span>
+#include "wpi/span.h"
 
 #include <wpi/MemAlloc.h>
 #include <wpi/timestamp.h>

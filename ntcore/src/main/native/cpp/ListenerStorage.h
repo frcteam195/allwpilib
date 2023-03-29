@@ -6,7 +6,7 @@
 
 #include <functional>
 #include <memory>
-#include <span>
+#include "wpi/span.h"
 #include <string_view>
 #include <utility>
 #include <vector>

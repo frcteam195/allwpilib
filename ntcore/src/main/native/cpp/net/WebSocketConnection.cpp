@@ -4,7 +4,7 @@
 
 #include "WebSocketConnection.h"
 
-#include <span>
+#include "wpi/span.h"
 
 #include <wpi/SpanExtras.h>
 #include <wpi/timestamp.h>

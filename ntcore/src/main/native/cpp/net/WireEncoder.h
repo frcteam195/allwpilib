@@ -5,7 +5,7 @@
 #pragma once
 
 #include <optional>
-#include <span>
+#include "wpi/span.h"
 #include <string>
 #include <string_view>
 

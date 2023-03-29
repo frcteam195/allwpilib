@@ -4,7 +4,7 @@
 
 #include <stdint.h>
 
-#include <span>
+#include "wpi/span.h"
 #include <string_view>
 #include <vector>
 
