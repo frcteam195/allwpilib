@@ -6,7 +6,7 @@
 #define WPINET_HTTPSERVERCONNECTION_H_
 
 #include <memory>
-#include <span>
+#include "wpi/span.h"
 #include <string_view>
 
 #include "wpinet/HttpParser.h"

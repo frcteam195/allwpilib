@@ -6,7 +6,7 @@
 #define WPINET_RAW_UV_OSTREAM_H_
 
 #include <functional>
-#include <span>
+#include "wpi/span.h"
 #include <utility>
 
 #include <wpi/SmallVector.h>

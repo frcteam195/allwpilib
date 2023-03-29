@@ -11,7 +11,7 @@
 #include <functional>
 #include <initializer_list>
 #include <memory>
-#include <span>
+#include "wpi/span.h"
 #include <utility>
 
 #include <wpi/Signal.h>

@@ -5,7 +5,7 @@
 #ifndef WPINET_UDPCLIENT_H_
 #define WPINET_UDPCLIENT_H_
 
-#include <span>
+#include "wpi/span.h"
 #include <string>
 #include <string_view>
 

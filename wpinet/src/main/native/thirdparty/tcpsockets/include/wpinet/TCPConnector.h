@@ -25,7 +25,7 @@
 #define WPINET_TCPCONNECTOR_H_
 
 #include <memory>
-#include <span>
+#include "wpi/span.h"
 #include <utility>
 
 #include "wpinet/NetworkStream.h"

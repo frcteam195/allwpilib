@@ -6,7 +6,7 @@
 
 #include <cstdio>
 #include <memory>
-#include <span>
+#include "wpi/span.h"
 #include <vector>
 
 #include "gtest/gtest.h"

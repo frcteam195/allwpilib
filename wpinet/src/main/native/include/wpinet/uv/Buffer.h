@@ -9,7 +9,7 @@
 
 #include <cstring>
 #include <initializer_list>
-#include <span>
+#include "wpi/span.h"
 #include <string_view>
 #include <utility>
 
