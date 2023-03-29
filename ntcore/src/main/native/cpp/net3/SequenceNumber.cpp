@@ -4,7 +4,7 @@
 
 #include "SequenceNumber.h"
 
-namespace nt {
+namespace nt::net3 {
 
 bool operator<(const SequenceNumber& lhs, const SequenceNumber& rhs) {
   if (lhs.m_value < rhs.m_value) {

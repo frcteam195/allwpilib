@@ -474,7 +474,7 @@ void CImpl::EntryAssign(std::string_view name, unsigned int id,
     valueChanged = false;
   } else {
     typeChanged = entry->type != value.type();
-    valueChanged = entry->value != value;
+    valueChanged = ((const nt::Value)entry->value) != value;
     if (m_state == kStateInitialAssignments) {
       // remove outgoing during initial assignments so we don't get out of sync
       for (auto publisher : entry->publishers) {
