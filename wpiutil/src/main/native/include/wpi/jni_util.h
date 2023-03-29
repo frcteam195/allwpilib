@@ -8,7 +8,7 @@
 #include <jni.h>
 
 #include <queue>
-#include <span>
+#include "wpi/span.h"
 #include <string>
 #include <string_view>
 #include <type_traits>

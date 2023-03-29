@@ -9,7 +9,7 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <span>
+#include "wpi/span.h"
 #include <string>
 #include <string_view>
 #include <system_error>

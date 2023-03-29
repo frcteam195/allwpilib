@@ -5,7 +5,7 @@
 #pragma once
 
 #include <cassert>
-#include <span>
+#include "wpi/span.h"
 
 namespace wpi {
 

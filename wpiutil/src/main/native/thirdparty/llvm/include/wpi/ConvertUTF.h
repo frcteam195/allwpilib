@@ -89,7 +89,7 @@
 #ifndef WPIUTIL_WPI_CONVERTUTF_H
 #define WPIUTIL_WPI_CONVERTUTF_H
 
-#include <span>
+#include "wpi/span.h"
 
 #include <cstddef>
 #include <string>

@@ -9,7 +9,7 @@
 #include <functional>
 #include <initializer_list>
 #include <memory>
-#include <span>
+#include "wpi/span.h"
 #include <string>
 #include <string_view>
 #include <thread>

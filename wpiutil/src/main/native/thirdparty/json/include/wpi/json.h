@@ -51,7 +51,7 @@ SOFTWARE.
 #include <iterator>
 #include <limits> // numeric_limits
 #include <memory> // allocator, shared_ptr, make_shared, addressof
-#include <span>
+#include "wpi/span.h"
 #include <stdexcept> // runtime_error
 #include <string> // string, char_traits, stoi, to_string
 #include <string_view>

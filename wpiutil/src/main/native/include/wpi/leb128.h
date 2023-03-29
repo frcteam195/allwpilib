@@ -8,7 +8,7 @@
 #include <stdint.h>
 
 #include <optional>
-#include <span>
+#include "wpi/span.h"
 
 namespace wpi {
 

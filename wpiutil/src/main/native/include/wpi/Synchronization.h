@@ -8,7 +8,7 @@
 #include <climits>  // NOLINT
 
 #include <initializer_list>
-#include <span>
+#include "wpi/span.h"
 #endif
 
 /**

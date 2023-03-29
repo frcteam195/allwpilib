@@ -14,7 +14,7 @@
 #define WPIUTIL_WPI_RAW_OSTREAM_H
 
 #include "wpi/SmallVector.h"
-#include <span>
+#include "wpi/span.h"
 #include <cassert>
 #include <cstddef>
 #include <cstdint>

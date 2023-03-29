@@ -6,7 +6,7 @@
 #define WPIUTIL_WPI_BASE64_H_
 
 #include <cstddef>
-#include <span>
+#include "wpi/span.h"
 #include <string>
 #include <string_view>
 #include <vector>

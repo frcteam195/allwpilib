@@ -6,7 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include <span>
+#include "wpi/span.h"
 #include "wpi/ConvertUTF.h"
 #include "wpi/SmallVector.h"
 #include "wpi/ErrorHandling.h"
